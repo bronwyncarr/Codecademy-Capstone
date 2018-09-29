@@ -97,12 +97,12 @@ header {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding-left: 24px;
+  padding-left: 1.5rem;
 }
 
 .logo img {
-  width: 70px;
-  height: 60px;
+  height: 3rem;
+  width: auto;
   margin-right: 0.75rem;
 }
 
@@ -115,7 +115,7 @@ header {
 }
 
 header nav {
-  padding-right: 24px;
+  padding-right: 1.5rem;
 }
 
 header span {
@@ -130,7 +130,7 @@ header a:hover {
 header nav a {
   color: black;
   font-weight: normal;
-  padding: 16px;
+  padding: 1.5rem;
 }
 
 /*Header media queries*/
@@ -152,6 +152,10 @@ header nav a {
 
   .logo {
     justify-content: space-around;
+  }
+
+  header img:hover {
+    height: 4rem;
   }
 }
 
@@ -349,19 +353,19 @@ header nav a {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 64rem;
 }
 
 #start .course {
-  width: 260px;
-  height: 260px;
+  width: 16.25rem;
+  height: 16.25rem;
   background-color: white;
-  margin: 16px;
+  margin: 1rem;
 }
 
 #start .course:hover  {
-  width: 292px;
-  height: 292px;
+  width: 18.25rem;
+  height: 18.25rem;
   margin: 0;
 }
 
